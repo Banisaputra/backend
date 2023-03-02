@@ -1,0 +1,10 @@
+[13-Jul-2022 07:58:23 UTC] PHP Warning:  require(/home/dkpbyl/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home/dkpbyl/backend/artisan on line 18
+[13-Jul-2022 07:58:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dkpbyl/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dkpbyl/backend/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/dkpbyl/backend/artisan on line 18
+[13-Jul-2022 07:58:33 UTC] PHP Warning:  require(/home/dkpbyl/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home/dkpbyl/backend/artisan on line 18
+[13-Jul-2022 07:58:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dkpbyl/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/dkpbyl/backend/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/dkpbyl/backend/artisan on line 18

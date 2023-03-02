@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+[x-cloak] {
+  display: none;
+}
+
+#editorjs h2 {
+  @apply text-3xl font-semibold leading-tight mb-2;
+}
+
+#editorjs h3 {
+  @apply text-2xl font-semibold leading-tight;
+}
+
+#editorjs h4 {
+  @apply text-xl font-semibold leading-tight;
+}

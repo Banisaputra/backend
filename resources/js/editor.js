@@ -1,0 +1,21 @@
+import EditorJS from '@editorjs/editorjs';
+import Paragraph from 'editorjs-paragraph-with-alignment';
+import Header from '@editorjs/header';
+import List from '@editorjs/list';
+import Embed from '@editorjs/embed';
+import Table from '@editorjs/table';
+import ImageTool from '@editorjs/image';
+import AttachesTool from '@editorjs/attaches';
+import Delimiter from '@editorjs/delimiter';
+import RawHTML from '@editorjs/raw';
+
+window.EditorJS = EditorJS;
+window.Paragraph = Paragraph;
+window.Header = Header;
+window.ImageTool = ImageTool;
+window.List = List;
+window.Embed = Embed;
+window.Table = Table;
+window.AttachesTool = AttachesTool;
+window.Delimiter = Delimiter;
+window.RawHTML = RawHTML;
